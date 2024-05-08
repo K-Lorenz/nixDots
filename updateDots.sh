@@ -10,4 +10,7 @@
      cp -r "$source_folder" "$destination_folder"
      cp -r /etc/nixos .
      echo "Copying completed."
+     RED='\033[0;31m'
+
+     echo -e "${RED}!!DONT FORGET TO DELETE DISCORD/SPOTIFY/CODE FOLDERS!!"
     
