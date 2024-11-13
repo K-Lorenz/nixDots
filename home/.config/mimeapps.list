@@ -19,6 +19,13 @@ application/pdf=org.pwmt.zathura-pdf-mupdf.desktop
 image/svg+xml=imv-folder.desktop
 x-scheme-handler/tg=org.telegram.desktop.desktop
 text/plain=Helix.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-JMZBW2.desktop
+message/rfc822=userapp-Thunderbird-JMZBW2.desktop
+x-scheme-handler/mid=userapp-Thunderbird-JMZBW2.desktop
+x-scheme-handler/webcal=userapp-Thunderbird-V9SAW2.desktop
+text/calendar=userapp-Thunderbird-V9SAW2.desktop
+application/x-extension-ics=userapp-Thunderbird-V9SAW2.desktop
+x-scheme-handler/webcals=userapp-Thunderbird-V9SAW2.desktop
 
 [Added Associations]
 image/bmp=imv-folder.desktop;
@@ -42,3 +49,7 @@ x-scheme-handler/tg=userapp-Telegram Desktop-ULF1Y1.desktop;org.telegram.desktop
 text/plain=Helix.desktop;
 image/jpeg=imv.desktop;
 video/mp4=umpv.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-JMZBW2.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-JMZBW2.desktop;
+x-scheme-handler/webcal=userapp-Thunderbird-V9SAW2.desktop;
+x-scheme-handler/webcals=userapp-Thunderbird-V9SAW2.desktop;
