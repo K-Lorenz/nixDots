@@ -8,12 +8,11 @@
 
   outputs = { nixpkgs, ... } @ inputs:
   {
-    nixosConfigurations.konrad-nixos = nixpkgs.lib.nixosSystem {
+    nixosConfigurations.konrad-nixos-laptop = nixpkgs.lib.nixosSystem {
       specialArgs = { inherit inputs; };
       modules = [
         ./configuration.nix
         ./hardware-configuration.nix
-        ./nvidia.nix
         ./opengl.nix
         ./sound.nix
         ./time.nix
@@ -37,11 +36,12 @@
         ./networking.nix
         ./users.nix
         ./lsp.nix
-        ./wasm.nix
+        #./wasm.nix
         ./info-fetchers.nix
         ./terminal-utils.nix
         ./programming.nix
+        ./firewall.nix
       ];
     };
-  };
+   };
 }
